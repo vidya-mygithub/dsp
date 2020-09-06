@@ -24,15 +24,15 @@ Note:  The notebook will open at the directory in which you launch the notebook 
 ```
 $ jupyter notebook
 ```
->(base) Srividyas-MacBook-Pro:~ Vidya$ jupyter notebook
-[I 15:49:45.879 NotebookApp] JupyterLab extension loaded from /Users/Vidya/opt/anaconda3/lib/python3.7/site-packages/jupyterlab
-[I 15:49:45.879 NotebookApp] JupyterLab application directory is /Users/Vidya/opt/anaconda3/share/jupyter/lab
-[I 15:49:45.881 NotebookApp] Serving notebooks from local directory: /Users/Vidya
-[I 15:49:45.881 NotebookApp] The Jupyter Notebook is running at:
-[I 15:49:45.882 NotebookApp] http://localhost:8888/?token=8b947f3455380992bdebbaf2281b49ee9718a5f25d8c0dcc
-[I 15:49:45.882 NotebookApp]  or http://127.0.0.1:8888/?token=8b947f3455380992bdebbaf2281b49ee9718a5f25d8c0dcc
-[I 15:49:45.882 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-[C 15:49:45.887 NotebookApp]
+>(base) Srividyas-MacBook-Pro:~ Vidya$ jupyter notebook  
+[I 15:49:45.879 NotebookApp] JupyterLab extension loaded from /Users/Vidya/opt/anaconda3/lib/python3.7/site-packages/jupyterlab  
+[I 15:49:45.879 NotebookApp] JupyterLab application directory is /Users/Vidya/opt/anaconda3/share/jupyter/lab  
+[I 15:49:45.881 NotebookApp] Serving notebooks from local directory: /Users/Vidya  
+[I 15:49:45.881 NotebookApp] The Jupyter Notebook is running at:  
+[I 15:49:45.882 NotebookApp] http://localhost:8888/?token=8b947f3455380992bdebbaf2281b49ee9718a5f25d8c0dcc  
+[I 15:49:45.882 NotebookApp]  or http://127.0.0.1:8888/?token=8b947f3455380992bdebbaf2281b49ee9718a5f25d8c0dcc  
+[I 15:49:45.882 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).  
+[C 15:49:45.887 NotebookApp]  
 
 ```console
 reshama$ jupyter notebook
@@ -47,15 +47,15 @@ At terminal prompt:
  * control + c
  * type:  `y`
  
->[I 15:52:16.940 NotebookApp] interrupted
-Serving notebooks from local directory: /Users/Vidya
-0 active kernels
-The Jupyter Notebook is running at:
-http://localhost:8888/?token=8b947f3455380992bdebbaf2281b49ee9718a5f25d8c0dcc
- or http://127.0.0.1:8888/?token=8b947f3455380992bdebbaf2281b49ee9718a5f25d8c0dcc
-Shutdown this notebook server (y/[n])? y
-[C 15:52:18.675 NotebookApp] Shutdown confirmed
-[I 15:52:18.678 NotebookApp] Shutting down 0 kernels
+>[I 15:52:16.940 NotebookApp] interrupted  
+Serving notebooks from local directory: /Users/Vidya  
+0 active kernels  
+The Jupyter Notebook is running at:  
+http://localhost:8888/?token=8b947f3455380992bdebbaf2281b49ee9718a5f25d8c0dcc  
+ or http://127.0.0.1:8888/?token=8b947f3455380992bdebbaf2281b49ee9718a5f25d8c0dcc  
+Shutdown this notebook server (y/[n])? y  
+[C 15:52:18.675 NotebookApp] Shutdown confirmed  
+[I 15:52:18.678 NotebookApp] Shutting down 0 kernels  
 
 ```console
 ^C[I 11:43:35.486 NotebookApp] interrupted
