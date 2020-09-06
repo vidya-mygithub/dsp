@@ -69,6 +69,7 @@ This "changes directory" and makes the named directory our new working
 directory. 
 
 > Question: How could we make sure that we moved?
+> Answer: By typing 'pwd' which gives the path to current working directory.
 
 Let's get a few special things out of the way as well for command line. When
 we talk about folders, we don't always want to move "into" the next folder
@@ -119,6 +120,8 @@ Now nothing shows up on the screen. List the files and see if you can tell
 why.
 
 > Hint: we learned how to list all the files up above.
+> (base) Srividyas-MacBook-Pro:test_directory Vidya$ ls  
+test_file.txt
 
 The greater than says, "put that output into the following file instead."
 
@@ -145,6 +148,13 @@ Nice.
 
 > Let's save the output of the `curl` command to a file called `data.txt`. How
 would we do that?
+> (base) Srividyas-MacBook-Pro:test_directory Vidya$ curl https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data > data.txt  
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current  
+                                 Dload  Upload   Total   Spent    Left  Speed  
+100 30286  100 30286    0     0  96146      0 --:--:-- --:--:-- --:--:-- 95841  
+(base) Srividyas-MacBook-Pro:test_directory Vidya$ ls  
+data.txt	test_file.txt  
+(base) Srividyas-MacBook-Pro:test_directory Vidya$   
 
 Now that we have the data file, let's learn how to manipulate files.
 
@@ -192,6 +202,7 @@ ls -lh
 ```
 
 > What changed?
+> File size is now displayed in bytes and kilobytes. 
 
 If instead copying we just want to change the name of a file, we can do:
 
