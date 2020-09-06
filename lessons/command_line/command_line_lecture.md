@@ -68,7 +68,7 @@ cd test_directory
 This "changes directory" and makes the named directory our new working
 directory. 
 
-> Question: How could we make sure that we moved?
+> Question: How could we make sure that we moved?  
 > Answer: By typing 'pwd' which gives the path to current working directory.
 
 Let's get a few special things out of the way as well for command line. When
@@ -119,7 +119,7 @@ echo "HELLO WORLD" > test_file.txt
 Now nothing shows up on the screen. List the files and see if you can tell
 why.
 
-> Hint: we learned how to list all the files up above.
+> Hint: we learned how to list all the files up above.  
 > (base) Srividyas-MacBook-Pro:test_directory Vidya$ ls  
 test_file.txt
 
@@ -147,7 +147,7 @@ This prints the data directly to stdout and we can see the whole dataset.
 Nice. 
 
 > Let's save the output of the `curl` command to a file called `data.txt`. How
-would we do that?
+would we do that?  
 > (base) Srividyas-MacBook-Pro:test_directory Vidya$ curl https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data > data.txt  
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current  
                                  Dload  Upload   Total   Spent    Left  Speed  
@@ -201,7 +201,7 @@ We can get even fancier by adding a second flag
 ls -lh
 ```
 
-> What changed?
+> What changed?  
 > File size is now displayed in bytes and kilobytes. 
 
 If instead copying we just want to change the name of a file, we can do:
